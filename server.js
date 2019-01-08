@@ -53,7 +53,7 @@ server.get('/redirect', function (req, res, next) {
 });
 
 //Log Request and Response to console
-function logReqRes(m, res) {
+function logReqRes(req, res) {
     if (logRequest === true) {
         console.log("---------------------- \n", req);
     }   
